@@ -1,0 +1,13 @@
+{
+  "name": "magus",
+  "description": "Headless programmable phantom-based browser with extensions",
+  "version": "0.0.2",
+  "dependencies": {
+    "promise": "~7.0.1",
+    "phantom": "~0.7.2"
+  },
+  "main":"magus.js",
+  "scripts":{
+    "test":"$NODE test/test.js"
+  }
+}
